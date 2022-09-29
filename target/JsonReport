@@ -1,0 +1,238 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-13T19:32:01.199Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1390000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinitions.BaseSteps.browserSetup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 394000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinitions.BaseSteps.browserTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8945376000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser is open",
+            "match": {
+              "location": "Stepdefinitions.TestProjectDemoLoginSteps_PF.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 717624000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "Stepdefinitions.TestProjectDemoLoginSteps_PF.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178878000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters Neelam and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Neelam",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefinitions.TestProjectDemoLoginSteps_PF.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49016000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login",
+            "match": {
+              "location": "Stepdefinitions.TestProjectDemoLoginSteps_PF.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237134000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "Stepdefinitions.TestProjectDemoLoginSteps_PF.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testprojectdemo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T19:32:11.385Z",
+        "before": [
+          {
+            "result": {
+              "duration": 572000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinitions.BaseSteps.browserSetup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 206000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinitions.BaseSteps.browserTeardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1694020000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser is open",
+            "match": {
+              "location": "Stepdefinitions.TestProjectDemoLoginSteps_PF.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1654025000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "Stepdefinitions.TestProjectDemoLoginSteps_PF.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132978000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters Anil and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anil",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 21
+                }
+              ],
+              "location": "Stepdefinitions.TestProjectDemoLoginSteps_PF.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45860000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login",
+            "match": {
+              "location": "Stepdefinitions.TestProjectDemoLoginSteps_PF.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221077000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "Stepdefinitions.TestProjectDemoLoginSteps_PF.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testprojectdemo"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginDemo.feature",
+    "tags": [
+      {
+        "name": "@testprojectdemo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
